@@ -1,10 +1,12 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { Component } from '@angular/core';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        HeroesStubComponent
       ],
     }).compileComponents();
   }));
@@ -25,3 +27,6 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1').textContent).toContain('Tour of Heroes');
   }));
 });
+
+@Component({selector: 'app-heroes', template: ''})
+class HeroesStubComponent {}
