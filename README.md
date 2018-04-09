@@ -1,6 +1,6 @@
 # Angular Tour of Heroes
 
-Demo project for going through all of the Angular concepts.
+Demo project for going through all of the Angular concepts, using the tutorial from https://angular.io/tutorial
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
